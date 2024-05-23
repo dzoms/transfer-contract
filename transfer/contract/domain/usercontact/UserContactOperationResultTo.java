@@ -33,7 +33,7 @@ public class UserContactOperationResultTo {
      * Ошибки, возникшие в результате выполнения операции.
      */
     @Builder.Default
-    private List<BoardOperationErrorTo> errors = new ArrayList<>();
+    private List<UserSettingsOperationErrorTo> errors = new ArrayList<>();
 
     /**
      * TO ошибки при операции над пользовательским контактом.
@@ -42,7 +42,7 @@ public class UserContactOperationResultTo {
     @NoArgsConstructor
     @AllArgsConstructor
     @Builder(toBuilder = true)
-    public static class BoardOperationErrorTo {
+    public static class UserSettingsOperationErrorTo {
         /**
          * Идентификатор сущности проекта, у которого произошла ошибка при выполнении операции.
          */

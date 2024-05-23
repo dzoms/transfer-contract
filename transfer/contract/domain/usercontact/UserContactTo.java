@@ -12,5 +12,7 @@ import java.util.UUID;
  * @param user2Id идентификатор 2 пользователя
  */
 @Builder(toBuilder = true)
-public record UserContactTo(UUID id, UUID user1Id, UUID user2Id) {
+public record UserContactTo(UUID id,
+                            UUID user1Id,
+                            UUID user2Id) {
 }
